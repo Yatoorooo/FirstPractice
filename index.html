@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <header>
+    <title>Web CV Іванько Анна</title>
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      table{
+        text-align: center;
+        font-size: 25px;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <a href="./gallery.html"><input  type="button" value="Gallery"> </a>
+   
+      <a href="./table.html"
+        ><input  type="button"  value="Аналіз структури"
+      /></a>
+      <a href="https://www.w3.org/" target="_blank"><input type="button" value="Help">  </a>
+      <header>
+      <article>
+      <h1>Сторінка про мене.</h1>
+   
+    <p>
+      Меня зовут Аня, мне 19 лет 
+       Учусь в университете ХНЭУ, специальность кибербезопастность.Работаю смм специалистом уже 3,6 года.
+    </p>
+      </article>
+      </header>
+      <br />
+      <h2>Shop list</h2>
+      <tbody>
+      <table width="800" border="2px solid black" >
+        <tr>
+          <th colspan="5" scope="col">Shop list for 25th of May.</th>
+        </tr>
+        
+        <tr>
+          <th scope="col" rowspan="2" >Name</th>
+          <th scope="col" colspan="4"  >Purchases</th>
+          
+          
+        </tr>
+        <tr>
+          <th colspan="col" >Price</th>
+          <th colspan="col" >Amount(kilo)</th>
+          <th colspan="col" >Sum</th>
+  
+        </tr>
+        <tr>
+          <td>Apple</td>
+          <td>20</td>
+          <td>2</td>
+          <td>40</td>
+        </tr>
+        <tr>
+          <td>Potato</td>
+          <td>10</td>
+          <td>3</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Carrot</td>
+          <td>15</td>
+          <td>1</td>
+          <td>15</td>
+          <tr>
+            <th scope="col" colspan="2"  >Total</th>
+            <td>3</td>
+            <td>85</td>
+            
+
+          </tr>
+        </tr>
+        
+      </table>
+      </tbody>
+      
+      <h2>Update NASA Yearlong Simulated Mars Mission application form</h2>
+      <fieldset>
+        <section id="contact-info">
+        <h2>Contact Info Section</h2>
+
+        <div>
+          <label for="FullName">Full name:</label>
+          <input id="FullName" type="text" required /><br />
+          <label for="Adress">Adress:</label>
+          <input id="Adress" type="text" required /><br />
+          <label for="Email">Email:</label>
+          <input id="Email" type="email" required /><br />
+        </div>
+        </section>
+      </fieldset>
+      <fieldset>
+        <legend><b>University Degree</b></legend>
+        <section id="about" >
+        <h2>About section</h2>
+        <div>
+          Military <input type="radio" name="degree" value="Military">
+          Technical <input type="radio" name="degree" value="Technical">
+          Student <input type="radio" name="degree" value="Student">
+          <p>Текстове поле:</p>
+          <label for="Text" value="Текстовое поле">
+          </label>
+          <textarea></textarea>
+
+                </div>
+        </section>
+      </fieldset>
+      <fieldset>
+        <section id="participationdetails">
+          <h3>Participation details</h3>
+          <details>
+              <summary>More info</summary>
+              <p>Please, provide information about your preferences. We don't guarantee them, but we will try.</p>
+          </details>
+      </section>
+      
+      <section>
+          <p id="uniform-color-p">
+              <label for="uniform-color-input">Uniform color</label>
+              <input type="color" id="uniform-color-input" name="uniformcolor">
+          </p>
+      </section>
+      
+      <section>
+          <p id="preferred-mission-role-p">
+              <label for="preferred-mission-role-input">Preferred Role in a mission</label>
+              <input type="text" id="preferred-mission-role-input" name="preferredmission-role" list="mission-role-options">
+              <datalist id="mission-role-options">
+                  <option value="Pilot"></option>
+                  <option value="Doctor"></option>
+                  <option value="Scientist"></option>
+                  <option value="Experimentator"></option>
+              </datalist>
+          </p>
+      </section>
+      </fieldset>
+      <fieldset>
+        <section id="agree-andsubmit">
+          <label>
+              <input type="checkbox" name="useragree">
+              I agree on terms and conditions.
+          </label>
+          <button type="submit">Send your data to NASA</button>
+      </section>
+      
+      </fieldset>
+          
+    
+    </header>
+  </body>
+  
+</html>
